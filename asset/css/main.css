@@ -1,0 +1,188 @@
+/*---------------------------------------
+               Variabels               
+-----------------------------------------*/
+/*
+------------------------
+        Color
+------------------------
+*/
+/*---------------------------------------
+               Template
+----------------------------------------*/
+.navs {
+  padding: 20px 0;
+  background: #FEF9F3;
+}
+
+.navs a {
+  color: rgba(49, 53, 59, 0.96);
+  font-weight: 600;
+}
+
+.accordions {
+  background: #FEF9F3;
+  padding: 40px 0;
+}
+
+.acc-text {
+  position: relative;
+  top: 100px;
+}
+
+.acc-text a {
+  text-decoration: none;
+}
+
+.btn-join {
+  border-radius: 20px;
+  background: #F3B85D;
+  width: 100px;
+  padding: 6px 20px;
+  color: #fff;
+}
+
+.detail {
+  margin: 80px 0;
+  padding: 0 10px;
+}
+
+.head-detail {
+  padding: 20px 0;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.head-detail h3 {
+  font-size: 1.2em;
+}
+
+.img-detail {
+  width: 100%;
+  height: 400px;
+}
+
+.img-detail img {
+  width: 100%;
+  height: 400px;
+}
+
+.corak {
+  position: relative;
+  background: #FEF9F3;
+  height: 200px;
+}
+
+.corak svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  fill: #fff;
+}
+
+.corak2 {
+  position: relative;
+  background: #343F51;
+  height: 100px;
+}
+
+.corak2 svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  fill: red;
+}
+
+@media only screen and (min-width: 1200px) {
+  .posisi1 {
+    position: relative;
+    left: -200px;
+  }
+}
+
+.top-footer {
+  background: #343F51;
+  padding: 30px 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tf-btn {
+  position: absolute;
+  right: 130px;
+  margin-top: 30px;
+}
+
+.card-detail {
+  padding: 40px 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.offer {
+  text-align: center;
+}
+
+.cards-footer {
+  padding: 10px 0;
+}
+
+.site-footer {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.main-footer {
+  padding: 60px 0;
+  background: #343F51;
+}
+
+.main-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ft-head {
+  padding: 15px 0;
+}
+
+.ft-body ul {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.ft-body li {
+  padding: 3px 0;
+}
+
+.newslater {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input-news {
+  padding: 6px 35px 6px 10px;
+  border: 2px solid #62646a;
+  border-radius: 4px;
+  font-size: 20px;
+  background: #343F51;
+  color: #62646a;
+  width: 210px;
+}
+
+.btn-news {
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 0 4px 4px 4px;
+  background: #F3B85D;
+}

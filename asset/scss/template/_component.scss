@@ -1,0 +1,19 @@
+.newslater{
+    display:flex;
+}
+.input-news{
+        padding: 6px 35px 6px 10px;
+    border: 2px solid $font-color;
+    border-radius: 4px;
+    font-size: 20px;
+    background: $footer-bg;
+    color: $font-color;
+    width: 210px;
+}
+
+.btn-news{
+padding: 10px 20px;
+color:#fff;
+border-radius: 0 4px 4px 4px;
+background: $btn-warna;
+}

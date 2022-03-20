@@ -1,0 +1,193 @@
+
+
+/*
+------------------------
+        Color
+------------------------
+*/
+ 
+
+$white:                 #fff !default;
+$black:                 #000 !default; 
+$red:                   #f44336 !default;
+$green:                #4cc499 !default;
+$green-light:           #8bc34a !default;  
+$blue:                  #42a5f5 !default;
+$teal:                  #4db6ac !default;    
+$blue-light:            #29b6f6 !default;
+$cyan:                  #00bcd4 !default;
+$purple:                #9c27b0 !default;
+$magenta:               #ab47bc !default;
+$yellow:                #ffeb3b !default;
+$amber:                 #ffc107 !default;     
+$orange:                #ff9800 !default;
+$brown:                 #795548 !default;   
+$pink:                  #ec407a !default;
+// gray
+$gray-dark:                 #424242 !default;
+$gray:                      #53535f !default;
+$gray-light:                #72849a !default; 
+$gray-lighter:              #ededed !default;
+$gray-lightest:             #f1f2f3 !default;
+
+
+// state color
+$primary:               #0096d6 !default;
+$success:               $green !default;
+
+$secondary:             $teal !default;
+$danger:                $red !default;
+$info:                  $blue-light !default;
+$warning:               $amber !default;
+$default:               $gray !default;
+
+// statecolor loop
+$color-each:(
+    $primary        btn-primary     text-primary      bg-primary      badge-primary,
+    $success        btn-success     text-success      bg-success      badge-primary,
+    $secondary      btn-secondary   text-secondary    bg-secondary    badge-secondary,
+    $danger         btn-danger      text-danger       bg-danger       badge-danger,
+    $info           btn-info        text-info         bg-info         badge-info,
+    $warning        btn-warning     text-warning      bg-warning      badge-warning,
+    $default        btn-default     text-default      bg-default      badge-default
+);
+
+
+// body 
+$body-bg:               #f2f4f4 !default;
+
+// Template
+$header-height:            70px;
+$sidenav-desktop:         280px;
+$sidenav-laptop:          230px;
+$sidenav-folded:          80px;
+$sidenav-dark:            #223143;
+$sidenav-dark-text:       #99abb4;
+$layout-content-gutter:    25px;
+$layout-content-gutter-sm: 10px;
+$footer-height:            65px;
+
+$theme-color: (
+    primary      $primary,
+    info         $info,
+    secondary    $secondary,
+    success      $success,
+    danger       $danger,
+    warning      $warning,
+    default      $default,
+);
+
+
+
+// Style anchor elements.
+$link-color:                $blue !default;
+$link-decoration:           none !default;
+$link-hover-color:          darken($link-color, 15%) !default;
+$link-hover-decoration:     underline !default;
+$select-hover-color:        #fafafa;
+
+
+// Font
+$font-family:               'Hind Madurai', sans-serif;
+$font-family-base:          $font-family !default;
+
+$font-weight-light:         300 !default;
+$font-weight-normal:        400 !default;
+$font-weight-semibold:      500 !default;
+$font-weight-bold:          bold !default;
+$font-weight-base:          $font-weight-normal !default;
+
+$line-height-base:          1.5 !default;
+
+$font-size-base:            .875rem !default;
+$font-size-xl:              1.25rem !default;
+$font-size-lg:              1rem !default;
+$font-size-sm:              .75rem !default;
+$font-size-xs:              .65rem !default;
+
+$display-line-height:       1.1 !default;
+
+$lead-font-size:            1.25rem !default;
+$lead-font-weight:          300 !default;
+
+$small-font-size:           80% !default;
+
+$text-muted:                rgba($gray-light, 0.6) !default;
+$font-color:              #62646a;
+
+$font-colorsec:           hsl(0, 0%, 60%);
+
+$header-font:            rgba(49, 53, 59, 0.96);
+// Border
+// Define border properties
+$border-color:           #edf2f9 !default;
+$border-radius:          .25rem !default;
+$border-radius-lg:       .35rem !default;
+$border-radius-sm:       .2rem !default;
+$border-radius-xs:       .125rem !default;
+$border-circle:           50% !default;
+$border-round:            50px !default;
+$border-width:            1px !default;
+
+// Button
+// Define button properties
+
+$btn-line-height:                1.25 !default;
+$btn-circle-height:              32px !default;
+$btn-font-weight:                $font-weight-normal !default;
+
+$btn-icon-size:                  40px !default;
+$btn-icon-size-sm:               30px !default;
+$btn-icon-size-lg:               46px !default;
+
+$btn-each: (
+    btn-primary     $primary,
+    btn-secondary   $secondary,
+    btn-success     $success,
+    btn-info        $info,
+    btn-warning     $warning,
+    btn-danger      $danger
+);
+
+$btn-transition:     all .2s ease-in-out !default;
+
+// break-word
+@mixin break-word {
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+// extension
+$footer-bg:#343F51;
+$bg-utama:#FEF9F3;
+$btn-warna:#F3B85D;
+
+// Box shadow properties
+$box-shadow: 0 22px 24px rgba(108, 111, 115, 0.1);
+$box-shadow-card: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+$box-shadow-1dp: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+$box-shadow-2dp: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+$box-shadow-3dp: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+    0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+$box-shadow-4dp: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+$box-shadow-6dp: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+$box-shadow-8dp: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+$box-shadow-9dp: 0 9px 12px 1px rgba(0, 0, 0, 0.14),
+    0 3px 16px 2px rgba(0, 0, 0, 0.12), 0 5px 6px -3px rgba(0, 0, 0, 0.2);
+$box-shadow-12dp: 0 12px 17px 2px rgba(0, 0, 0, 0.14),
+    0 5px 22px 4px rgba(0, 0, 0, 0.12), 0 7px 8px -4px rgba(0, 0, 0, 0.2);
+$box-shadow-16dp: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+$box-shadow-24dp: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+
+$box-shadow-head: 0 0 1px 0 rgba(20, 23, 28, 0.1),
+    0 3px 1px 0 rgba(20, 23, 28, 0.1);
+

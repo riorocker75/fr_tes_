@@ -1,0 +1,23 @@
+.navs{
+    padding: 20px 0;
+    background: $bg-utama;
+   a{color:$header-font;font-weight: 600;}
+}
+
+.accordions{
+    background:$bg-utama;
+    padding: 40px 0;
+}
+.acc-text{
+    position: relative;
+    top:100px;
+    a{text-decoration: none;}
+}
+
+.btn-join{
+    border-radius: 20px;
+    background: #F3B85D;
+    width:100px;
+    padding: 6px 20px;
+    color: #fff;
+}
